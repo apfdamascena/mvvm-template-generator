@@ -13,7 +13,7 @@ struct ___VARIABLE_ModuleName___View: View, ___VARIABLE_ModuleName___ViewProtoco
     @ObservedObject private var viewModel = ___VARIABLE_ModuleName___ViewModel()
        
     var body: some View {
-        Text("Hello World")
+        Text(viewModel.example ?? "Hello World")
     }
 
 }

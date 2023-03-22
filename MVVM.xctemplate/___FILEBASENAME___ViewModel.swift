@@ -9,5 +9,5 @@
 import SwiftUI
 
 final class ___VARIABLE_ModuleName___ViewModel: ObservableObject, ___VARIABLE_ModuleName___ViewModelProtocol {
-    @Published var example: Int?
+    @Published var example: String?
 }
