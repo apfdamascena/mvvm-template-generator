@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ___VARIABLE_ModuleName___View: View, ___VARIABLE_ModuleName___ViewProtocol {
 
-    @ObservedObject private let viewModel = ___VARIABLE_ModuleName___ViewModel()
+    @ObservedObject private var viewModel = ___VARIABLE_ModuleName___ViewModel()
        
     var body: some View {
         Text("Hello World")
