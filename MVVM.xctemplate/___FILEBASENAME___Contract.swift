@@ -6,6 +6,8 @@
 //  ___COPYRIGHT___
 //
 
+import SwiftUI
+
 protocol ___VARIABLE_ModuleName___ViewModelProtocol {
 
 }
