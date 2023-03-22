@@ -10,6 +10,6 @@ import SwiftUI
 
 // MARK: Variables to watch mark as Published. ViewModel also calls API/Core Data
 
-final class ___VARIABLE_ModuleName___ViewModel: ObservableObject, ___VARIABLE_ModuleName___ViewModelProtocol {
+final class ___VARIABLE_ModuleName___ViewModel: ObservableObject {
     @Published var example: String?
 }

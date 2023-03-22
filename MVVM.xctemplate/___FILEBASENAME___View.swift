@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ___VARIABLE_ModuleName___View: View, ___VARIABLE_ModuleName___ViewProtocol {
+struct ___VARIABLE_ModuleName___View: View {
 
     @ObservedObject private var viewModel = ___VARIABLE_ModuleName___ViewModel()
        
