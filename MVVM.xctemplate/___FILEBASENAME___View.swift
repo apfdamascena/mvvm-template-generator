@@ -10,9 +10,9 @@ import SwiftUI
 
 struct ___VARIABLE_ModuleName___View: View, ___VARIABLE_ModuleName___ViewProtocol {
 
-    @ObservedObject private var viewModel: ___VARIABLE_ModuleName___ViewNodel?
+    @ObservedObject private var viewModel: ___VARIABLE_ModuleName___ViewModel?
 
-    init(viewModel: ___VARIABLE_ModuleName___ViewNodel = ___VARIABLE_ModuleName___ViewModel()){
+    init(viewModel: ___VARIABLE_ModuleName___ViewModel = ___VARIABLE_ModuleName___ViewModel()){
         self.viewModel = viewModel
     }
         
